@@ -1,0 +1,43 @@
+body {
+    width: 320px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.done {
+text-decoration: line-through;
+color: #ccc;
+}
+
+.delete {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.add-form {
+    margin-bottom: 20px;
+}
+
+.task-input {
+    width: 81%;
+    padding: 3px;
+}
+
+.delete-form {
+    margin-left: auto;
+  }
+
