@@ -12,6 +12,5 @@ deleteItems.forEach(deleteItem => {
             event.preventDefault();
             return;
           }
-        deleteItem.parentNode.submit();
     });
 });
