@@ -7,8 +7,9 @@ checkboxes.forEach(checkbox => {
 
 let deleteItems = document.querySelectorAll('.delete');
 deleteItems.forEach(deleteItem => {
-    deleteItem.addEventListener('click', () => {
+    deleteItem.addEventListener('click', (event) => {
         if (!confirm('削除してよろしいでしょうか?')) {
+            event.preventDefault();
             return;
           }
         deleteItem.parentNode.submit();
